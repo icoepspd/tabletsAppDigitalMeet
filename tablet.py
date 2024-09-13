@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(layout='wide')
 
-st.markdown("<h1 style='text-align: center;font-size: 76px;'>Welcome to Digital Meet (Manufacturing) 2024</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;font-size: 55px;'>Welcome to Digital Meet (Manufacturing) 2024</h1>", unsafe_allow_html=True)
 
 def ChangeWidgetFontSize(wgt_txt, wch_font_size = '12px'):
 
