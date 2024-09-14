@@ -1,9 +1,34 @@
-import streamlit as st
 import streamlit.components.v1 as components
+import streamlit as st
 
-st.set_page_config(layout='wide')
+# page_bg = """
+# <style>
+# body {
+#     background-color: #091238; /* Light blue background */
+# }
+# </style>
+# """
 
-st.markdown("<h1 style='text-align: center;font-size: 55px;'>Welcome to Digital Meet (Manufacturing) 2024</h1>", unsafe_allow_html=True)
+# # Render the CSS in the Streamlit app
+# st.markdown(page_bg, unsafe_allow_html=True)
+
+st.set_page_config(layout="wide")
+
+st.logo("./itc-logo-removebg-preview.png", link="https://www.itcpspd.com/")
+
+st.html("""
+  <style>
+    [alt=Logo] {
+      height: 2rem;
+    }
+  </style>
+        """)
+
+st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital Meet (Manufacturing) 2024</h1>", unsafe_allow_html=True)
+#st.markdown("<h1 style='text-align: center;font-size: 40px;'>(Manufacturing)</h1>", unsafe_allow_html=True)
+#st.markdown("<h1 style='text-align: center;font-size: 40px;'>2024</h1>", unsafe_allow_html=True)
+
+#st.markdown("<h1 style='text-align: center;font-size: 55px;'>Welcome to Digital Meet (Manufacturing) 2024</h1>", unsafe_allow_html=True)
 
 def ChangeWidgetFontSize(wgt_txt, wch_font_size = '12px'):
 
