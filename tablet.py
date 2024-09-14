@@ -63,4 +63,4 @@ st.markdown("""
             #unsafe_allow_html=True)
 
 
-ChangeWidgetFontSize('Digital Meet Session Summary','30px')
+ChangeWidgetFontSize('Digital Meet Session Summary','40px')
