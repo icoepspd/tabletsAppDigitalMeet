@@ -60,7 +60,7 @@ st.markdown("""
 
 
 #st.markdown("<div style="text-align: center;">[Digital Meet Session Summary](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWVjYWI4ZGUtMjY3My00OTYxLWFhOTQtZmZmNzY3ZjRkNzdk%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22e6de7ade-191f-4b03-96a0-63290e12461e%22%7d)</div>",
-            unsafe_allow_html=True)
+            #unsafe_allow_html=True)
 
 
 ChangeWidgetFontSize('Digital Meet Session Summary','30px')
