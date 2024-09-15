@@ -52,7 +52,7 @@ def ChangeWidgetFontSize(wgt_txt, wch_font_size = '12px'):
 
 st.markdown("""
     <div style="text-align: center;">
-        <a href="https://events.teams.microsoft.com/event/c696ad4f-b8ff-47c1-940f-50bef3547fc1@b5ff47a6-f7b4-4abf-a484-a75057bd8139"">
+        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGRiZjA2MjktYzVmOC00ZjRjLWE2N2MtNGU2NDNhYjliOWEz%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22e6de7ade-191f-4b03-96a0-63290e12461e%22%7d"">
             Digital Meet Session Summary
         </a>
     </div>
